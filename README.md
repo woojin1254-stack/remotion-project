@@ -16,7 +16,11 @@ Welcome to your Remotion project!
 **Install Dependencies**
 
 ```console
+<<<<<<< HEAD
 npm install
+=======
+npm i
+>>>>>>> origin/main
 ```
 
 **Start Preview**
