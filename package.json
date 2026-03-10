@@ -1,0 +1,24 @@
+{
+  "name": "naver-intro",
+  "version": "1.0.0",
+  "description": "Naver Service Introduction Video",
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "render": "remotion render src/index.ts",
+    "upgrade": "remotion upgrade"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@remotion/cli": "latest",
+    "@remotion/zod-types": "latest",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "remotion": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "typescript": "latest"
+  }
+}
