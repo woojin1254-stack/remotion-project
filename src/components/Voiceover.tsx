@@ -11,7 +11,8 @@ export const Voiceover: React.FC = () => {
                     durationInFrames={item.durationInFrames}
                 >
                     <Audio
-                        src={staticFile(`audio/scene_${index + 1}.mp3`)}
+                        src={staticFile(`audio/scene_${index + 1}.wav`)}
+                        playbackRate={1.0}
                     />
                 </Sequence>
             ))}
