@@ -1,32 +1,7 @@
 {
-<<<<<<< HEAD
   "name": "naver-intro",
   "version": "1.0.0",
   "description": "Naver Service Introduction Video",
-  "scripts": {
-    "dev": "remotion studio",
-    "build": "remotion bundle",
-    "render": "remotion render src/index.ts",
-    "upgrade": "remotion upgrade"
-  },
-  "license": "UNLICENSED",
-  "dependencies": {
-    "@remotion/cli": "latest",
-    "@remotion/zod-types": "latest",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "remotion": "latest",
-    "zod": "latest"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.0",
-    "typescript": "latest"
-  }
-=======
-  "name": "remotion-project",
-  "version": "1.0.0",
-  "description": "My Remotion video",
-  "repository": {},
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
@@ -52,11 +27,11 @@
     "dev": "remotion studio",
     "generate-audio": "powershell -ExecutionPolicy Bypass -File generate-audio.ps1",
     "build": "remotion bundle",
+    "render": "remotion render NaverIntro out/naver_intro.mp4",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc"
   },
   "sideEffects": [
     "*.css"
   ]
->>>>>>> origin/main
 }
